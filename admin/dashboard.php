@@ -55,9 +55,7 @@ if (isset($_POST['update_proyek'])) {
 $projek = mysqli_query($conn, "SELECT * FROM projek ORDER BY id DESC");
 $edit_projek = isset($_GET['edit_proyek']) ? mysqli_fetch_assoc(mysqli_query($conn, "SELECT * FROM projek WHERE id=".$_GET['edit_proyek'])) : null;
 
-// ========================
 // CRUD PENDIDIKAN
-// ========================
 if (isset($_POST['tambah_pendidikan'])) {
     $nama_sekolah = mysqli_real_escape_string($conn, $_POST['nama_sekolah']);
     $jurusan = mysqli_real_escape_string($conn, $_POST['jurusan']);

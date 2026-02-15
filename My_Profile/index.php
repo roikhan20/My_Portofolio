@@ -14,6 +14,7 @@ $projek = mysqli_query($conn, "SELECT * FROM projek ORDER BY id DESC");
     <title>Portofolio Saya</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="shortcut icon" href="gambar/metallica.jpg" type="image/x-icon">
 
     <style>
         /* BASE STYLES */
@@ -208,11 +209,7 @@ $projek = mysqli_query($conn, "SELECT * FROM projek ORDER BY id DESC");
             transform: scale(1.2);
         }
 
-        /* ======================================= */
-        /* MEDIA QUERIES UNTUK RESPONSIVITAS */
-        /* ======================================= */
 
-        /* LAYAR TABLET (Maksimum Lebar 768px) */
         @media (max-width: 768px) {
             section {
                 /* Kurangi padding horizontal agar lebih banyak ruang konten */
@@ -298,7 +295,7 @@ $projek = mysqli_query($conn, "SELECT * FROM projek ORDER BY id DESC");
                 Saya dikenal sebagai pribadi yang tekun, cepat belajar, dan mampu bekerja dalam tim maupun secara mandiri.
             </p>
         </div>
-        <img src="gambar/dobleh.jpg" alt="Foto Saya">
+        <img src="gambar/roi.png" alt="Foto Saya">
     </section>
 
     <section class="projects">
