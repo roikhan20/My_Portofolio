@@ -109,7 +109,8 @@ $edit_skill = isset($_GET['edit_skill']) ? mysqli_fetch_assoc(mysqli_query($conn
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Dashboard Admin</title>
+<title>Dashboard Portofolio</title>
+<link rel="shortcut icon" href="../My_profile/gambar/metallica.jpg" type="image/x-icon">
 <style>
     body {
         margin: 0;
